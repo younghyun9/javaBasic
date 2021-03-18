@@ -58,6 +58,8 @@ public class Operators {
 	    System.out.println(result3);
 	    System.out.println(result4);    // 전치 연산자 쓰는것이 기본 
 		
+	    
+	    
 		
 		
 	}
