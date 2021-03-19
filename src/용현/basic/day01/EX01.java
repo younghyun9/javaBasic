@@ -1,4 +1,4 @@
-package 이용현.basic.day01;
+package 용현.basic.day01;
 // 연습문제 실습
 
 public class EX01 {
