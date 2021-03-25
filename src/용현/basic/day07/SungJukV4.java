@@ -1,4 +1,4 @@
-package 용현.basic.용현.basic.day07;
+package 용현.basic.day07;
 
 public class SungJukV4 {
     public static void main(String[] args) {
