@@ -1,12 +1,12 @@
 package 용현.basic.day09;
 
-//public class Starcraft2 {
-//    public static void main(String[] args) {
-//
-//    }
-//}
-//
-//class scv {
+public class Starcraft {
+    public static void main(String[] args) {
+
+    }
+}
+
+//class SCV {
 //    String name= "scv";
 //    int hp = 60;
 //    int attackdamge = 5;
@@ -19,7 +19,7 @@ package 용현.basic.day09;
 //    public void repair(){ }
 //}
 //
-//class marine {
+//class Marine {
 //    String name= "marine";
 //    int hp = 40;
 //    int attackdamge = 6;
@@ -174,6 +174,7 @@ package 용현.basic.day09;
 //    public void yamato(){ }
 //}
 
+//내가 연습한것들
 
 
 

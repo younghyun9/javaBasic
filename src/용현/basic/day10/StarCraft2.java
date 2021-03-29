@@ -1,6 +1,6 @@
-package 용현.basic.day09;
+package 용현.basic.day10;
 
-public class StarCraft {
+public class StarCraft2 {
     public static void main(String[] args) {
         // 1) SCV s = new SCV();
         // 2) SCV s = new SCV("SCV", 60, 5, 2.81, 50, 0);   // 2번째방법
@@ -54,6 +54,22 @@ abstract class Unit {                   //클래스앞에 추상화 메서드 �
     abstract public void move();
     abstract public void specialAbility();   // 대충 윤곽만 잡아두고 (추상화) 자식클래스에서 구체화 {} 대신 ; 넣어서 추상화
           // public 생략가능!
+}
+
+//class SCV extends  Unit implements UnitAction{}
+
+//class SCV extends  Unit implements UnitAction{}
+
+//class SCV extends  Unit implements UnitAction{}        // 이부분 복습!
+
+// 추상클래스에서 정의했던 추상메서드를
+// 독립적인 코드로 분리함
+
+
+interface  UnitAction{
+    abstract public void attack();
+    void move();                      // abstract public 생략가능
+    void specialAbility();
 }
 
 class SCV extends Unit{          // 처음에 빨간줄 그어진이유 >> 밑에 능력들을 추상화 하라고!
@@ -165,3 +181,4 @@ class Firebat extends Unit{
     }
 }
 
+// 선생님 자료 참조
