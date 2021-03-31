@@ -1,5 +1,7 @@
 package 용현.basic.day11;
 
+import java.util.Scanner;
+
 public class q14_q25 {
     public static void main(String[] args) {
         //  Q14번 문제 (학생버전)
@@ -14,5 +16,34 @@ public class q14_q25 {
         int m = 12345;
         System.out.println( Math.floor((double) m / 60) + "분입니다");
 
+        // 선생님 추가문제
+        //Q- 두수를 입력받아 두 수 사이의 모든 값의 총합을 구하는 코드를 작성하세요 (3.31)
+        //ex) 10 3     => 3,4,5,6,7,8,9,10 의  총합
+        //ex) 3,10     => 3,4,5,6,7,8,9,10 의  총합
+
+        Scanner sc = new Scanner(System.in);
+        int x;
+        int y;
+        int sum =0 ;
+        System.out.println("첫번쨰 숫자는? ");
+        x = sc.nextInt();
+
+        System.out.println("두번째 숫자는?");
+        y = sc.nextInt();
+        if(x>y)
+        {
+            int sub = x;
+            x=y;
+            y=sub;
+        }
+
+        for(int i = x; i<=y ; i=i+1)
+        {
+            sum=sum+i;
+        }
+        System.out.println();
+        System.out.println("두 수"+x+"~"+y+" 사이의 합은");
+        System.out.println(sum+"입니다");
     }
 }
+
